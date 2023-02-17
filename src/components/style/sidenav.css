@@ -1,0 +1,37 @@
+.small-icons{
+    white-space: none;
+}
+.help-icon{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.flexbox-item{
+    margin: 50px 0;
+    font-size: 60px;
+    transition: 0.3s ease;
+}
+
+.flexbox-item:hover{
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    color: #ffffff;
+
+}
+
+.sidebar{
+    background-color: orange;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+@media only screen and (max-width: 1536px) {
+    .help-icon{
+        visibility: hidden;
+    }
+}
+

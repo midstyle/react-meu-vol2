@@ -1,0 +1,216 @@
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+}
+
+.container {
+    padding: 3em;
+    display: grid;
+    grid-gap: 2em;
+}
+.grid-item2#blur.active{
+    filter: blur(10px);
+}
+.forgotpass {
+    position: relative;
+    width: 150px;
+    border: none;
+    background-color: rgb(235, 191, 110);
+    border-radius: 30px;
+    padding: 15px;
+    top:33px;
+    right: 170px;
+    text-decoration: none;
+}
+
+.forgotpass:hover {
+    opacity: 0.8;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    width: 150px;
+    height: 120;
+    border: none;
+    background-color: rgb(235, 191, 110);
+    border-radius: 30px;
+    padding: 12.5px;
+    position: relative;
+    left:180px ;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+input[type=text], input[type=password] {
+    font-family: 'Montserrat', sans-serif;
+    width: 30rem;
+    height: 3rem;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 10px 0px 10px 0px;
+  }
+input {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.material-symbols-rounded {
+    font-size: 50px !important;
+    width: 100px;
+    position: relative;
+    bottom: 500px;
+}
+
+
+.translate {
+    font-size: 20px;
+    top: 50px;
+    color: black;
+    position: absolute;
+    bottom: 700px
+}
+
+.help {
+    float: right;
+    position: relative;
+    bottom: 570px;
+}
+
+#popup-trans{
+    text-align: center;
+    border-radius: 2em;
+    background-color: orange;
+    color: white;
+    position: fixed;
+    top: 40%;
+    border: 2px solid orange;
+    width: 200px;
+    padding: 10px;
+    left: 50%;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.30);
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#popup-trans li{
+    list-style: none;
+    width: 6em;
+    border-radius: 8px;
+    margin: 0;
+    padding: 6px 0;
+}
+
+#popup-trans li:hover{
+    cursor: pointer;
+}
+
+#popup-trans.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.close-btn{
+    transition: 0.3s;
+    top: 85%;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    position: fixed;  
+}
+.close-btn:hover{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    opacity: 1;
+}
+
+#popup-help{
+    text-align: center;
+    border-radius: 2em;
+    background-color: orange;
+    color: white;
+    position: fixed;
+    top: 40%;
+    border: 2px solid orange;
+    width: 200px;
+    padding: 0 30px 30px;
+    left: 50%;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.30);
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#form2{
+    padding: 4px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 10px;
+    width: 14em;
+}
+
+#popup-help .close-btn{
+    left: 80%;
+    transition: 0.3s;
+    top: 85%;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    position: fixed;  
+}
+#popup-help.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.Logo{
+    width: 200px;
+}
+
+.translate{
+    font-size: 50px;
+}
+.help{
+    margin: 50px 0 0 0;
+    font-size: 40px;
+}
+
+.login-button {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 150px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: rgb(235, 191, 110);
+    border-radius: 30px;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+
+.login-button:hover {
+    opacity: 0.8;
+}
+
+@media screen and (min-width:1536px){
+    .container{
+        height: 780px;
+    }
+}

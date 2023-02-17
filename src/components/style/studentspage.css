@@ -1,0 +1,86 @@
+.grid-container-classes {
+  background-color: rgb(250, 197, 100);
+  display: grid;
+  width: 1100px;
+  height: 600px;
+  max-height: 600px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0px;
+  box-shadow: 5px 5px 15px #b6b6b6;
+  overflow-y: auto;
+  border-radius: 20px 20px 20px 20px;
+  margin-bottom: 40px;
+  transition: 0.3s ease-in-out;
+}
+
+.grid-container-classes > div {
+  text-align: left;
+  font-size: 30px;
+  padding: 30px 0 0 40px;
+  margin: left;
+  height: 5rem;
+  border-bottom: 1px solid #312e2e;
+  transition: ease-in-out 0.2s;
+}
+
+.grid-container-classes > div:hover {
+  opacity: 50%;
+  color: white
+}
+
+.participant-counter{
+    text-align: right;
+    padding-right: 60px;
+    font-size: 24px;
+}
+
+#popup-add-class{
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  width: 800px;
+  height: 300px;
+  background-color: rgb(249, 203, 118);
+  border-radius: 2em;
+  padding: 50px;
+  text-align: left;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+#popup-add-class.active{
+  opacity: 100%;
+  visibility: visible;
+}
+
+.add-class-text{
+  color: #333232;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.max-participants{
+  width: 150px;
+  margin-left: 20px;
+  white-space: nowrap;
+}
+.icon-add-class{
+  display: inline-block;
+  padding-right:20px ;
+}
+
+.create-class-btn{
+  border-radius: 3em;
+  border: none;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(109, 246, 143);
+  font: inherit;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+}
+

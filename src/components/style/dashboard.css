@@ -1,0 +1,191 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    background: #ffff;
+    margin: 0;
+    padding: 0 20px 0 0;
+    height: 100vh; 
+    width: 100%;
+}
+
+.time {
+    text-align: center;
+}
+
+.time h1{
+    color: #F2941D;
+    font-size: 50px;
+}
+
+
+.sidebar{
+    background-color: orange;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.notification {
+    float: right;
+    position: relative;
+    padding: 10px 20px ;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #CACACA;
+    bottom: 30px;
+}
+.notif-icon {
+    display: inline-block;
+}
+.notif-message{
+    margin: 0 0 0 10px;
+    display: inline-block;
+}
+.settings-icon {
+    float: right;
+    position: relative;
+    bottom: 200px;
+    right: 60px;
+}
+
+.flexbox-container{
+    display: flex;
+    text-align: center;
+    
+}
+
+.flexbox-item {
+    margin: 40px;
+    padding: 10px;
+    font-size: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+.flexbox-item-1:hover{
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    color: #ffffff;
+
+}
+
+.flexbox-item-2:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    border: none;
+    color: #ffff;
+}
+
+.flexbox-item-3:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    border: none;
+    color: #ffff;
+}
+
+.flexbox-item-4:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    border: none;
+    color: #ffff;
+}
+
+.flexbox-item-5:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    border: none;
+    color: #ffff;
+}
+
+.calendar_img{
+    position: relative;
+    top: 50px;
+    left: 450px;
+    width: 100px;
+}
+
+.help-icon {
+    font-size: 28px;
+    position: relative;
+    left: 0px;
+}
+
+
+
+.help-icon:hover {
+    cursor: pointer;
+    font-size: 28px;
+    position: relative;
+    left: 0px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.more-abt {
+    text-decoration: none;
+}
+
+.sign-out{
+    margin: 0;
+    text-decoration: none;
+    padding: 5px 0 0 0;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(227, 89, 89);
+
+}
+
+a{
+    color: inherit;
+}
+
+.sidebar .small-icons{
+    position: fixed;
+    bottom: 40px; 
+    left: 5%;
+}
+
+
+
+
+.settings-icon{
+    font-size: 43px;
+}
+
+button{
+    all: revert
+}
+
+.react-calendar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (min-width:1536){
+    body{
+        height: 100%;
+    }
+}
